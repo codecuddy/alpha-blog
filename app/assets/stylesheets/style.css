@@ -1,0 +1,18 @@
+* {
+    background-color: navy;
+}
+
+h1, h3, p {
+    color: white;
+}
+
+a {
+    color: silver;
+<<<<<<< HEAD
+}
+
+#manbearpig {
+    margin-top: -20px;
+=======
+>>>>>>> e93df7111e69ad9d6aa3379b19ef309a0014e638
+}
