@@ -36,7 +36,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
 
   # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+  gem 'sqlite3'
   
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -51,10 +51,10 @@ gem 'sqlite3'
   gem 'spring'
 end
   
-  group :production do
-    gem 'pg'
-    gem 'rails_12factor'
-  end
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 
 
 
