@@ -1,3 +1,10 @@
+Validations for User class:
+
+- username must be present and unique
+- email must be present and unique
+- validate email format using regex
+
+
 
 1 Create a new rails app called alpha-blog
 2 ensure you can run server and preview
