@@ -9,7 +9,7 @@
           <li class="article-title">
               <%= link_to user.username, user_path(user) %>
           </li><br>
-          <small><em>signed up: <%= time_ago_in_words(user.created_at) %></em> </small>
+          <small><em>signed up: <%= time_ago_in_words(user.created_at) %> ago</em> </small>
           
           <li><small><strong><%= pluralize(user.articles.count, "article") if user.articles %></strong></small></li>
           
