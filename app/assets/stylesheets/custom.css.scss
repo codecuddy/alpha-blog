@@ -4,7 +4,7 @@ $navbar-default-bg: black;
 @import "bootstrap";
 
 body {
-    background-color: silver;
+    background-color: #e60000;
 }
 
 
@@ -88,17 +88,17 @@ footer {
     margin-top: 45px;
     padding-top: 5px;
     border-top: 1px solid #eaeaea;
-    color: #999;
+    color: #222;
 }
 footer a {
-    color: #999;
+    color: #222;
 }
 footer a:hover {
-    color: #777;
+    color: #444;
 }
 
 footer small {
-    color: #999;
+    color: #222;
     float: left;
 }
 
