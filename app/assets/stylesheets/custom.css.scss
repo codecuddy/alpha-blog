@@ -7,6 +7,7 @@ body {
     background-color: silver;
 }
 
+
 #logo {
     float: left;
     font-size: 1.7em;
@@ -27,6 +28,7 @@ body {
 
 .jumbotron {
     background-image: asset-url('black_and_white_background.jpg');
+    opacity: 0.9;
     background-size: cover;
     height: 560px;
 }
@@ -86,17 +88,17 @@ footer {
     margin-top: 45px;
     padding-top: 5px;
     border-top: 1px solid #eaeaea;
-    color: #222;
+    color: #999;
 }
 footer a {
-    color: #111;
+    color: #999;
 }
 footer a:hover {
-    color: #222;
+    color: #777;
 }
 
 footer small {
-    color: #222;
+    color: #999;
     float: left;
 }
 
