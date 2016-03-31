@@ -34,4 +34,5 @@
           [ <%= link_to "Cancel Request and Return to Articles Listing", articles_path %> ]
         </div>
     </div>
-</div>
+</div><%= render 'shared/errors', obj: @article %>
+

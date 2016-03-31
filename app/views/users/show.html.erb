@@ -7,6 +7,9 @@
 
 <h4 align="center"><%= @user.username %>'s articles</h4>
 <div class="center">
+<%= link_to "Create New Article", new_article_path, class: "btn btn-sm btn-primary" %>
+</div><br>
+<div class="center">
     <%= will_paginate @user_articles %>
 </div>
 <%= render 'articles/article', obj: @user_articles %>
